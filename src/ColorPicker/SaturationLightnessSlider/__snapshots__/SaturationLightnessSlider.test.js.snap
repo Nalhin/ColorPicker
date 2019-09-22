@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SaturationLightnessSlider Should render correctly 1`] = `
+<div>
+  <div
+    class="css-cqd1um-SliderHandle__Wrapper e9y9zbe0"
+  >
+    <div
+      class="css-gjeaqo-SliderHandle__Handle e9y9zbe1"
+      style="top: 50px; left: 33px; background: rgb(255, 240, 220);"
+    />
+    <div
+      class="css-xhn5x9-SaturationLightnessSlider__Background eq818vc0"
+      style="background-color: rgb(255, 240, 220);"
+    />
+  </div>
+</div>
+`;

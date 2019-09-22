@@ -1,0 +1,21 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "usage"
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    [
+      "emotion",
+      {
+        "sourceMap": true,
+        "labelFormat": "[filename]__[local]",
+        "cssPropOptimization": true
+      }
+    ]
+  ]
+}
