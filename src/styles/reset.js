@@ -6,6 +6,7 @@ const reset = `
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    font-family: 'Roboto', sans-serif;
   }
 `;
 

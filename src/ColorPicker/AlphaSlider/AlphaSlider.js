@@ -62,14 +62,14 @@ const AlphaSlider = ({
   React.useEffect(() => {
     if (selected === SELECTED_SLIDER.ALPHA) {
       window.addEventListener('mousemove', getPositionMove);
-      window.addEventListener('ontouchmove', getPositionMove);
+      window.addEventListener('touchmove', getPositionMove);
     } else {
       window.removeEventListener('mousemove', getPositionMove);
-      window.removeEventListener('ontouchmove', getPositionMove);
+      window.removeEventListener('touchmove', getPositionMove);
     }
     return () => {
       window.removeEventListener('mousemove', getPositionMove);
-      window.removeEventListener('ontouchmove', getPositionMove);
+      window.removeEventListener('touchmove', getPositionMove);
     };
   }, [getPositionMove, selected]);
 

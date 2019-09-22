@@ -1,13 +1,16 @@
 {
-  "name": "ColorPicker",
+  "name": "color-picker",
   "version": "1.0.0",
   "description": "Color Picker website",
   "main": "src/index.js",
+  "homepage" : "http://nalhin.github.io/ColorPicker",
   "scripts": {
     "build": "webpack --env.production",
     "watch": "webpack --watch --env.development",
     "start": "webpack-dev-server --env.development",
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/core": "^10.0.15",

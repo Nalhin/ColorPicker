@@ -7,20 +7,20 @@ module.exports = env => {
     mode: env.development ? 'development' : 'production',
     entry: path.resolve(__dirname, './src/index.js'),
     output: {
-      publicPath: '/',
+      publicPath: env.development ? '/' : './',
       filename: 'bundle.[hash].js',
       chunkFilename: 'chunk.[chunkhash].js',
-      path: path.resolve(__dirname, 'dist'),
+      path: path.resolve(__dirname, 'build'),
     },
     devtool: env.development ? 'eval-source-map' : 'source-map',
     devServer: {
       contentBase: [
         path.join(__dirname, 'public'),
-        path.join(__dirname, 'dist'),
+        path.join(__dirname, 'build'),
       ],
       hot: true,
       open: false,
-      port: 3001,
+      port: 3000,
     },
     module: {
       rules: [

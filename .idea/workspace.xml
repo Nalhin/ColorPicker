@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="947e17a6-08d1-4b59-97b3-326c8923ad57" name="Default Changelist" comment="" />
+    <list default="true" id="947e17a6-08d1-4b59-97b3-326c8923ad57" name="Default Changelist" comment="Fixed bug with mobile version">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.5d97603e8f49cba3225a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.5d97603e8f49cba3225a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/bundle.5d97603e8f49cba3225a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/bundle.5d97603e8f49cba3225a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/showcase/ColorPicker.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/showcase/ColorPicker.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ColorPicker/AlphaSlider/AlphaSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColorPicker/AlphaSlider/AlphaSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ColorPicker/ColorValues/ColorValues.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColorPicker/ColorValues/ColorValues.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ColorPicker/HueSlider/HueSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColorPicker/HueSlider/HueSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ColorPicker/SaturationLightnessSlider/SaturationLightnessSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColorPicker/SaturationLightnessSlider/SaturationLightnessSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/reset.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/reset.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +38,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1RCDLBnxpJEqZsBw0IkxGa1tT2D" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editorconfig.notification" value="null" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -54,11 +82,26 @@
       <option name="presentableId" value="Default" />
       <updated>1569162125692</updated>
       <workItem from="1569162127981" duration="1034000" />
-      <workItem from="1569163178947" duration="10098000" />
+      <workItem from="1569163178947" duration="12210000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixed bug with mobile version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bug with mobile version" />
   </component>
 </project>

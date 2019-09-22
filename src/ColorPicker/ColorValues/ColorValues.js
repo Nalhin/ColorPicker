@@ -6,6 +6,7 @@ import { convertRgbaToHex } from '../Utils';
 const StyledTitle = styled.h1`
   font-size: 24px;
   text-align: center;
+  margin-top: 12px;
 `;
 
 const StyledTable = styled.table`

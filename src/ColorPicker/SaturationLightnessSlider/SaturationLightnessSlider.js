@@ -64,11 +64,16 @@ const SaturationLightnessSlider = ({
   };
 
   React.useEffect(() => {
-    if (selected === SELECTED_SLIDER.SATURATION_LIGHTNESS)
+    if (selected === SELECTED_SLIDER.SATURATION_LIGHTNESS) {
       window.addEventListener('mousemove', getPositionMove);
-    else window.removeEventListener('mousemove', getPositionMove);
+      window.addEventListener('touchmove', getPositionMove);
+    } else {
+      window.removeEventListener('mousemove', getPositionMove);
+      window.removeEventListener('touchmove', getPositionMove);
+    }
     return () => {
       window.removeEventListener('mousemove', getPositionMove);
+      window.removeEventListener('touchmove', getPositionMove);
     };
   }, [getPositionMove, selected]);
 
