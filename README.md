@@ -34,6 +34,7 @@ npm run start
 - Converting Colors.
 - Optimizing React with useMemo and useCallback.
 - Testing with jest.
+- Touch API.
 
 
 ## License
