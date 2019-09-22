@@ -10,7 +10,7 @@ const StyledTitle = styled.h1`
 `;
 
 const StyledTable = styled.table`
-  margin: 0 auto;
+  margin: 6px auto;
 `;
 
 const StyledTd = styled.td`

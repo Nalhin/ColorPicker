@@ -57,6 +57,7 @@ const HueSlider = ({
   );
 
   const getPositionClick = event => {
+    event.preventDefault();
     getPosition(event);
     changeSelected(SELECTED_SLIDER.HUE);
   };
