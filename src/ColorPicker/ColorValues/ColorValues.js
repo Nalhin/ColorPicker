@@ -17,6 +17,7 @@ const StyledTd = styled.td`
   padding: 0 12px;
   width: 80px;
   text-align: center;
+  user-select: text;
 `;
 
 const ColorValues = ({ color }) => {

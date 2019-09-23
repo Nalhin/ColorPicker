@@ -22,6 +22,7 @@ const Wrapper = styled.div`
   margin: 0 auto;
   max-width: 600px;
   padding: 20px;
+  user-select: none;
 `;
 const BottomWrapper = styled.div`
   margin-top: 10px;

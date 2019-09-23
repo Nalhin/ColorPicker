@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Color Picker website",
   "main": "src/index.js",
-  "homepage" : "http://nalhin.github.io/ColorPicker",
+  "homepage": "http://nalhin.github.io/ColorPicker",
   "scripts": {
     "build": "webpack --env.production",
     "watch": "webpack --watch --env.development",
