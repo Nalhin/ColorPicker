@@ -11,6 +11,8 @@ const StyledTitle = styled.h1`
 
 const StyledTable = styled.table`
   margin: 6px auto;
+  width: 100%;
+  table-layout: fixed;
 `;
 
 const StyledTd = styled.td`
