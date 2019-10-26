@@ -2,7 +2,7 @@
 
 A website that allows users to select color and copy it to clipboard.
 
-![screen](https://github.com/Nalhin/ColorPicker/blob/master/showcase/ColorPicker.JPG)
+![screen](showcase/ColorPicker.JPG)
 
 ## Requirements
 
