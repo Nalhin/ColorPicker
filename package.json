@@ -3,14 +3,11 @@
   "version": "1.0.0",
   "description": "Color Picker website",
   "main": "src/index.js",
-  "homepage": "http://nalhin.github.io/ColorPicker",
   "scripts": {
     "build": "webpack --env.production",
     "watch": "webpack --watch --env.development",
     "start": "webpack-dev-server --env.development",
-    "test": "jest --watchAll",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "test": "jest --watchAll"
   },
   "dependencies": {
     "@emotion/core": "^10.0.15",
@@ -27,6 +24,7 @@
     "babel-eslint": "^10.0.2",
     "babel-loader": "^8.0.6",
     "babel-plugin-emotion": "^10.0.15",
+    "copy-webpack-plugin": "^5.0.4",
     "css-loader": "^3.2.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.1",
