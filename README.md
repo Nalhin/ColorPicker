@@ -2,7 +2,7 @@
 
 A website that allows users to select color and copy it to clipboard.
 
-![screen](showcase/ColorPicker.JPG)
+![screen](showcase/ColorPicker.png)
 
 ## Requirements
 
@@ -33,7 +33,7 @@ npm run start
 - Emotion (Styled Components).
 - Converting Colors.
 - Optimizing React with useMemo and useCallback.
-- Testing with jest.
+- Testing with Jest.
 - Touch API.
 
 
